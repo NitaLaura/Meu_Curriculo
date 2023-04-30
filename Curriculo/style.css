@@ -1,0 +1,130 @@
+header{
+	background: linear-gradient(68.15deg, #4B0082 16.62%, #9400D3 85.61%);
+	padding: 10px 3px;
+	text-align: center;
+}
+
+body{
+	background-color: rgba(255, 255, 255, 0.7);
+	background-image: url(Imagens/fundoroxo.jpg);
+	background-blend-mode: overlay;
+	font-size: 20px;
+  margin: 0;
+}
+
+p{
+	text-align: left;
+	margin-left: 2em;
+	margin-right: auto;
+	margin-top: auto;
+	width: 30em;
+	font: arial;
+	color: indigo;
+}
+
+h1{
+	font: arial;
+	font-size: 40px;
+	color: white;
+	padding-left: 2em;
+}
+
+footer{
+	background: linear-gradient(68.15deg, #4B0082 16.62%, #9400D3 85.61%);
+	padding: 6px 3px;
+	text-align: right;
+	color: #fff;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/* Menu Principal */
+
+nav{
+	background: linear-gradient(68.15deg, #4B0082 16.62%, #9400D3 85.61%);
+	padding: 1px;
+}
+
+.menu-p ul{                            
+	padding: 0;
+	background: linear-gradient(68.15deg, #4B0082 16.62%, #9400D3 85.61%);
+	border: 3px solid white;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+}
+
+.menu-p ul li{
+	display: inline;
+	position: relative;
+}
+
+.menu-p ul li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10;
+	font: arial;
+	display: inline;
+	padding: 10px;
+}
+
+.menu-p ul li a:hover{
+	padding: 1px;
+	border: 0px solid white;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+}
+
+.imagem1 {
+	width: 150px;
+	height: 150px;
+	align: left;
+	border: 3px solid white;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+}
+
+.imagem2 {
+	width: 50px;
+	height: 50px;
+	padding: 50px 10px;	
+}
+
+.imagem3 {
+	width: 11vw;
+	height: 17vw;
+	padding: 50px 100px;	
+}
+
+.imagem4 {
+	width: 18vw;
+	height: 10vw;
+	padding: 50px 70px;	
+}
+
+.imagem5 {
+	width: 8vw;
+	height: 8vw;
+	padding: 40px 20px;	
+}
+
+.imagem6 {
+	width: 12vw;
+	height: 8vw;
+	padding: 40px 20px;	
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.principal2 {
+	padding: 1px 1px;
+	display: flex;
+  flex-direction: row;
+ 	align-items: right;
+}
